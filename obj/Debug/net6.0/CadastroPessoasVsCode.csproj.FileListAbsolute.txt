@@ -1,0 +1,15 @@
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\CadastroPessoasVsCode.csproj.AssemblyReference.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\CadastroPessoasVsCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\CadastroPessoasVsCode.AssemblyInfoInputs.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\CadastroPessoasVsCode.AssemblyInfo.cs
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\CadastroPessoasVsCode.csproj.CoreCompileInputs.cache
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\bin\Debug\net6.0\CadastroPessoasVsCode.exe
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\bin\Debug\net6.0\CadastroPessoasVsCode.deps.json
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\bin\Debug\net6.0\CadastroPessoasVsCode.runtimeconfig.json
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\bin\Debug\net6.0\CadastroPessoasVsCode.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\bin\Debug\net6.0\ref\CadastroPessoasVsCode.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\bin\Debug\net6.0\CadastroPessoasVsCode.pdb
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\CadastroPessoasVsCode.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\ref\CadastroPessoasVsCode.dll
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\CadastroPessoasVsCode.pdb
+C:\Users\fabio\OneDrive\Área de Trabalho\CadastroPessoasVsCode\obj\Debug\net6.0\CadastroPessoasVsCode.genruntimeconfig.cache
