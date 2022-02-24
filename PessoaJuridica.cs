@@ -6,12 +6,37 @@ namespace CadastroPessoasVsCode
 
         public string razaoSocial { get; set; }
         
-        public override float PagarImposto(float rendimento){
+        public override float PagarImposto(float rendimento)
+        {
+            float taxa;
+            if (rendimento <= 3000)
+            {
+                taxa = (rendimento/100) *3;
+                return taxa;
 
-            throw new System.NotImplementedException();
-        }
+            }else if (rendimento > 3000 && rendimento <= 6000)   
+            {
+                taxa = (rendimento/100) * 5;
+                return taxa;
+            }else if (rendimento > 6000 && rendimento <= 10000)
+            {
+                taxa = (rendimento/100) * 7;
+                return taxa;
+
+            }else
+            {
+                taxa = (rendimento/100) *9;
+                return taxa;
+            }
+        }    
+
         public bool ValidarCnpj (string cnpj){
-            return true;
+
+            if (cnpj.Lenghth == 14 && cnpj.Substring(cnpj.Lenghth - 6, 4) == "0001")
+            {
+                return true;
+            }
+            return false;
         }
-    }    
+    }
 }

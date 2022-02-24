@@ -58,10 +58,11 @@ namespace CadastroPessoasVsCode
 
                         Console.Clear();
                         console..WriteLine(@$"
- Nome: {novaPf.nome
+ Nome: {novaPf.nome}
  cpf: {novaPf.cpf}
  Endereco: {novaPf.endereco.logradouro}, {novaPf.endereco.numero}
  complemento: {novaPf.endereco.complemento}
+ taxa de imposto a ser paga: {pfMetodos.PagarImposto(novaPf.rendimento).ToString("c")}
 ");  
                         console.writeLine($"Aperte 'Enter' para continuar");
                         console.ReadLine();
@@ -88,14 +89,25 @@ namespace CadastroPessoasVsCode
 
                         novaPf.endereco = novoEndPf;
 
+                     //   string cnpjválido = pjMetodos.ValidarCnpj(novapj.cnpj) ? "válido" : "inválido"
+                        if (pjMetodos.validarCnpj(novaPj.cnpj)) 
+                        {
+                            cnpjVálido = "Válido";
+                        }else
+                        {
+                            cnpjVálido = "inválido";
+                        }   
+
                         Console.Clear();
                         console..WriteLine(@$"
 Nome: {novaPj.nome}
 Razão Social: {novaPj.razãoSocial}
 CNPJ : {novaPj.cnpj}
-Cnpj valido: {pjMetodos.ValidarCnpj(novapj.cnpj)}
+Cnpj valido: {pjMetodos.ValidarCnpj(novapj.cnpj) ? "válido" : "inválido"}
+taxa de imposto a ser paga : {pfMetodos.PagarImposto(novaPj.rendimento).ToString("c")}
 ");
-                        Thread.Sleep(2000);
+                        console.writeLine($"Aperte 'Enter' para continuar");
+                        console.ReadLine();
 
                         break;
 
